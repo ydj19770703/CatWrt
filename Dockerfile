@@ -1,13 +1,11 @@
-FROM nginx:1.23.3-alpine
+FROM caddy:latest
 
-WORKDIR /usr/share/nginx/html
-
-RUN rm -rf *.html 
+WORKDIR /srv
 
 COPY . .
 
-COPY ./nginx.conf /etc/nginx/nginx.conf
+COPY Caddyfile /etc/caddy/Caddyfile
 
 EXPOSE 80
 
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["caddy", "run", "--config", "/etc/caddy/Caddyfile"]

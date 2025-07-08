@@ -1,15 +1,15 @@
-version: '3'
+version: '3.8'
 
 services:
   app:
     container_name: catwrt-repo
     image: miaoer/catwrt-repo:latest
     # debug
-    # build: .
+    build: .
     environment:
       - TZ=Asia/Shanghai
     ports:
-      - '1480:80'
+      - "1480:80"
     networks:
       - CatWrt-network
     restart: always
