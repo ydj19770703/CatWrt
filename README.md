@@ -196,7 +196,7 @@ src/gz openwrt_telephony https://vercel.catwrt.eu.org/history/v22.2/x86_64/telep
 
 你可以将此仓库部署在你自己的服务器上搭建属于自己的软件源，这样可以在内外网拉取软件包时获得一个不错的速度，需要在部署后按照上诉机型的软件源修改为你的地址并对应路径即可食用。
 
-[![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=YOUR_REPO_URL)
+[![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https://github.com/miaoermua/CatWrt)
 
 <br>
 
