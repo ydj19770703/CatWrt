@@ -192,15 +192,17 @@ src/gz openwrt_telephony https://vercel.catwrt.eu.org/history/v22.2/x86_64/telep
 
 更多 CatWrt 教程实用小技巧，请关注博客: [喵二の小博客](https://www.miaoer.net)
 
+---
+
 ## 部署软件源
 
 你可以将此仓库部署在你自己的服务器上搭建属于自己的软件源，这样可以在内外网拉取软件包时获得一个不错的速度，需要在部署后按照上诉机型的软件源修改为你的地址并对应路径即可食用。
 
+<br>
+
 - 使用 EdgeOne 由 Tencent Cloud 提供
 
 [![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https://github.com/miaoermua/CatWrt)
-
-<br>
 
 - 使用 docker-compose 部署，将编排文件拉取到本地使用启动
 
