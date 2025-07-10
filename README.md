@@ -204,6 +204,10 @@ src/gz openwrt_telephony https://vercel.catwrt.eu.org/history/v22.2/x86_64/telep
 
 [![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https://github.com/miaoermua/CatWrt)
 
+- 使用 Windows 部署、Linux 桌面环境。
+
+[在自己电脑或服务器部署 CatWrt 软件源，使用 Caddy 部署](https://www.miaoer.net/posts/network/caddy-deploy-catwrt-repo)
+
 - 使用 docker-compose 部署，将编排文件拉取到本地使用启动
 
 ```bash
@@ -213,7 +217,7 @@ $ docker compose up -d
 # docker-compose up -d
 ```
 
-或使用命令直接部署
+或使用 Docker 命令直接部署
 
 ```bash
 $ docker run -d -p 1480:80 miaoer/catwrt-repo:latest
@@ -222,12 +226,6 @@ $ docker run -d -p 1480:80 miaoer/catwrt-repo:latest
 - 使用 Linux 面板部署
 
 将此仓库通过 `git clone https://github.com/miaoermua/CatWrt.git` 拉取到服务器网站目录里，修改面板网站目录到 CatWrt 中；
-
-- 使用 Windows 部署
-
-[在自己电脑或服务器部署 CatWrt 软件源，使用 Caddy 部署](https://www.miaoer.net/posts/network/caddy-deploy-catwrt-repo)
-
-[【不推荐】无法使用 CatWrt 在线源，那就本地部署一个！](https://www.miaoer.net/posts/blog/windows-deploy-catwrt-repo)
 
 ***
 
