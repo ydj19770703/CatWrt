@@ -225,7 +225,9 @@ $ docker run -d -p 1480:80 miaoer/catwrt-repo:latest
 
 - 使用 Windows 部署
 
-[无法使用 CatWrt 在线源，那就本地部署一个！](https://www.miaoer.net/posts/blog/windows-deploy-catwrt-repo)
+[在自己电脑或服务器部署 CatWrt 软件源，使用 Caddy 部署](https://www.miaoer.net/posts/network/caddy-deploy-catwrt-repo)
+
+[【不推荐】无法使用 CatWrt 在线源，那就本地部署一个！](https://www.miaoer.net/posts/blog/windows-deploy-catwrt-repo)
 
 ***
 
