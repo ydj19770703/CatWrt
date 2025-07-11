@@ -200,10 +200,6 @@ src/gz openwrt_telephony https://vercel.catwrt.eu.org/history/v22.2/x86_64/telep
 
 <br>
 
-- 使用 EdgeOne 由 Tencent Cloud 提供
-
-[![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https://github.com/miaoermua/CatWrt)
-
 - 使用 Windows 部署、Linux 桌面环境。
 
 [在自己电脑或服务器部署 CatWrt 软件源，使用 Caddy 部署](https://www.miaoer.net/posts/network/caddy-deploy-catwrt-repo)
@@ -233,6 +229,10 @@ $ docker run -d -p 1480:80 miaoer/catwrt-repo:latest
 
 i18n: [EN](https://github.com/miaoermua/CatWrt/blob/main/README_EN.md)
 
-本项目及周边云服务部分由 DartNode 提供。
+本项目 CDN 加速及安全防护由 Tencent EdgeOne 赞助
+
+![Tencent EdgeOne](https://edgeone.ai/media/34fe3a45-492d-4ea4-ae5d-ea1087ca7b4b.png)
+
+本项目及周边云服务器部分由 DartNode 提供。（系统更新，工具获取等…）
 
 [![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
