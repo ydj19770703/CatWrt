@@ -231,7 +231,7 @@ i18n: [EN](https://github.com/miaoermua/CatWrt/blob/main/README_EN.md)
 
 ## 感谢
 
-[![Vercel](https://ziadoua.github.io/m3-Markdown-Badges/badges/Vercel/vercel1.svg)](https://vercel.com/) [![Netlify](https://ziadoua.github.io/m3-Markdown-Badges/badges/Netlify/netlify1.svg)](https://netlify.com/)
+[![Vercel](https://ziadoua.github.io/m3-Markdown-Badges/badges/Vercel/vercel1.svg)](https://vercel.com/) [![Netlify](https://ziadoua.github.io/m3-Markdown-Badges/badges/Netlify/netlify1.svg)](https://netlify.com/) [![](https://ziadoua.github.io/m3-Markdown-Badges/badges/Cloudflare/cloudflare2.svg)](https://www.cloudflare-cn.com/) [![](https://ziadoua.github.io/m3-Markdown-Badges/badges/Github/github1.svg)](https://www.github.com/)
 
 本项目 CDN 加速及安全防护由 Tencent EdgeOne 赞助
 
