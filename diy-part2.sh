@@ -10,3 +10,4 @@ sed -i 's#https://mirrors.tuna.tsinghua.edu.cn/openwrt#https://mirrors.aliyun.co
 
 # 集成OpenClash科学插件
 git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
+# bui# build
