@@ -14,7 +14,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      # 配置国内Docker镜像加速，解决拉取镜像超时失败
       - name: Config Docker Mirror
         run: |
           sudo mkdir -p /etc/docker
