@@ -1,30 +1,4 @@
-name: name: ci
-
-on:
-  push:
-    branches:
-      - "main"
-
-jobs:
-  docker:
-    runs-on: ubuntu-latest
-    env:
-      DOCKER_MIRROR: https://docker.mirrors.ustc.edu.cn
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Config Docker Mirror
-        run: |
-          sudo mkdir -p /etc/docker
-          echo '{"registry-mirrors": ["${DOCKER_MIRROR}"]}' | sudo tee /etc/docker/daemon.json
-          sudo systemctl restart docker
-
-      - name: Set up QEMU
-        uses: docker/setup-qemu-action@v2
-
-      - name: Build & Push
-        uses: catwrt/build-action@main
+name: ci
 
 on:
   push:
