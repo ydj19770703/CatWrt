@@ -5,11 +5,9 @@ on:
 jobs:
   docker:
     runs-on: ubuntu-latest
-    env:
-      DOCKER_MIRROR: https://docker.mirrors.ustc.edu.cn
     steps:
       - uses: actions/checkout@v3
-      - name: 配置国内Docker镜像
+      - name: docker加速
         run: |
           sudo mkdir -p /etc/docker
           echo '{"registry-mirrors":["https://docker.mirrors.ustc.edu.cn"]}' | sudo tee /etc/docker/daemon.json
